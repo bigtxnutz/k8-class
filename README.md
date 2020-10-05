@@ -2,7 +2,7 @@
 stuff from kubernetes class
 
 
-# k8-class (Project Title)
+# k8-class 
 
 To capture & save materials from the class.
 
