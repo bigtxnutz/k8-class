@@ -1,3 +1,4 @@
+learning how to version control projects with git
 # k8-class
 stuff from kubernetes class
 
