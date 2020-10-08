@@ -1,0 +1,28 @@
+2020-10-06 15:14:48,989 p=6958 u=student n=ansible | PLAY [Pre-setup] ***********************************************************************************************************************************************************************
+2020-10-06 15:14:53,292 p=6958 u=student n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************
+2020-10-06 15:14:53,295 p=6958 u=student n=ansible | [DEPRECATION WARNING]: Distribution Ubuntu 18.04 on host bchd should use /usr/bin/python3, but is using /usr/bin/python for backward compatibility with prior Ansible releases. A 
+future Ansible release will default to using the discovered platform python for this host. See https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html 
+for more information. This feature will be removed in version 2.12. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2020-10-06 15:14:53,297 p=6958 u=student n=ansible | ok: [bchd]
+2020-10-06 15:14:53,337 p=6958 u=student n=ansible | ok: [node-01]
+2020-10-06 15:14:53,345 p=6958 u=student n=ansible | ok: [master-03]
+2020-10-06 15:14:53,351 p=6958 u=student n=ansible | ok: [master-01]
+2020-10-06 15:14:53,356 p=6958 u=student n=ansible | ok: [master-02]
+2020-10-06 15:14:56,881 p=6958 u=student n=ansible | ok: [node-03]
+2020-10-06 15:14:56,922 p=6958 u=student n=ansible | ok: [node-02]
+2020-10-06 15:14:58,186 p=6958 u=student n=ansible | TASK [command] *************************************************************************************************************************************************************************
+2020-10-06 15:14:58,197 p=6958 u=student n=ansible | changed: [node-01]
+2020-10-06 15:14:58,292 p=6958 u=student n=ansible | changed: [bchd]
+2020-10-06 15:14:58,295 p=6958 u=student n=ansible | changed: [master-01]
+2020-10-06 15:14:58,303 p=6958 u=student n=ansible | changed: [master-03]
+2020-10-06 15:14:58,304 p=6958 u=student n=ansible | changed: [master-02]
+2020-10-06 15:14:58,892 p=6958 u=student n=ansible | changed: [node-02]
+2020-10-06 15:14:58,961 p=6958 u=student n=ansible | changed: [node-03]
+2020-10-06 15:14:59,001 p=6958 u=student n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************
+2020-10-06 15:14:59,001 p=6958 u=student n=ansible | bchd                       : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-10-06 15:14:59,002 p=6958 u=student n=ansible | master-01                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-10-06 15:14:59,003 p=6958 u=student n=ansible | master-02                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-10-06 15:14:59,004 p=6958 u=student n=ansible | master-03                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-10-06 15:14:59,005 p=6958 u=student n=ansible | node-01                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-10-06 15:14:59,006 p=6958 u=student n=ansible | node-02                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2020-10-06 15:14:59,006 p=6958 u=student n=ansible | node-03                    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
